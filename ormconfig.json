@@ -2,11 +2,12 @@
     "type": "postgres",
     "host": "localhost",
     "port": 5432,
-    "username": "lais",
-    "password": "Users123",
-    "database": "users",
+    "username": "reprograma8",
+    "password": "repro",
+    "database": "reprograma8",
     "entities": [
-        "src/domain/models/**/*.ts"
+        "src/address/address.entity.ts",
+        "src/users/users.entity.ts"
     ],
     "synchronize": true
 }
